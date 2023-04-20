@@ -21,17 +21,21 @@ class Pagina extends StatelessWidget {
           const Text("oiiiiiiiiii",
               style: TextStyle(
                   fontSize: 47,
-                  color: Colors.black,
+                  color: Colors.blue,
                   fontWeight: FontWeight.w100, 
                   letterSpacing: 5
                    )),
           const Text("tchauuuuuuu",
               style: TextStyle(
                   fontSize: 47,
-                  color: Colors.black,
+                  color: Colors.blue,
                   fontWeight: FontWeight.w100, 
-                  letterSpacing: 5
-                   )),
+                  letterSpacing: 5 )),
+                   const Text("0"),
+                   Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [TextButton(onPressed: null, child: Text("saiu"))],
+                   )
         ],
       ),
     );
